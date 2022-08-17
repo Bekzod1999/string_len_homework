@@ -7,4 +7,6 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    y=len(a)
+    z=len(b)
+    return y==z
