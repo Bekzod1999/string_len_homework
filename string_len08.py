@@ -15,3 +15,7 @@ def main(s):
     else:
         z = y // 2
         return s[z-1]+ s[z]
+    
+
+x=main('cool')
+print(x)
