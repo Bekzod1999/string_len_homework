@@ -7,4 +7,10 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    y=len(s1)
+    z=len(s2)
+    if(y>z):
+        w=y
+    else:
+        w=z
+    return w
