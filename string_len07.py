@@ -11,7 +11,7 @@ def main(s1, s2, s3):
     a = len(s1)
     b = len(s2)
     c = len(s3)
-    w='['
+    w = '['
     if a % 2 == 1:
         w += f'{s1}'
     if b % 2 == 1:
@@ -25,6 +25,6 @@ def main(s1, s2, s3):
         else:
             w += f', {s3}'
 
-    w+=']'
+    w += ']'
 
     return w
