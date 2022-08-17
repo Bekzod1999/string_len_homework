@@ -6,4 +6,6 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    y=len(a)
+
+    return bool((y+1)%2)
