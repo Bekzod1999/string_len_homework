@@ -9,7 +9,7 @@ def main(s1,s2):
     """
     y=len(s1)
     z=len(s2)
-    if(y>z):
+    if y>z:
         w=z
     else:
         w=y
